@@ -4,50 +4,50 @@ This file guides agents working in this repo. Each section opens with what it co
 
 # Rules
 
-Contains: Directives on how to work in this repo. It's the catch-all for anything that fits no other section.
+**Contains:** Directives on how to work in this repo. It's the catch-all for anything that fits no other section.
 
-Add when: The human asks for one.
+**Add when:** The human asks for one.
 
-Format: One short imperative per line.
+**Format:** One short imperative per line.
 
-- Write tests, comments, docs, or markdown only when asked.
+- Write tests, comments, docs, or Markdown only when asked.
 
 # Modules
 
-Contains: The deep modules that hold all business logic. Other code imports a module only through its root files, and entry points such as routes stay thin.
+**Contains:** The deep modules that hold all business logic. Other code imports a module only through its root files, and entry points such as routes stay thin.
 
-Add when: A module is created or changed. Update its entry in the same change.
+**Add when:** A module is created or changed. Update its entry in the same change.
 
-Format: `` `module` — what it does and what it hides. ``
+**Format:** `module — what it does and what it hides.`
 
 # Commands
 
-Contains: Exact commands for working in this repo.
+**Contains:** Exact commands for working in this repo.
 
-Add when: A task recurs often. Keep one canonical command per task.
+**Add when:** A task recurs often. Keep one canonical command per task.
 
-Format: `Purpose: command`
+**Format:** `Purpose: command`
 
 # Stack
 
-Contains: Major tools, with their agent-friendly docs and MCP servers. Prefer llms.txt or markdown docs.
+**Contains:** Major tools, with their agent-friendly docs and MCP servers. Prefer llms.txt or Markdown docs.
 
-Add when: A tool shapes how code is written across the repo.
+**Add when:** A tool shapes how code is written across the repo.
 
-Format: `Tool — purpose. Docs: <url>. MCP: <server or none>.`
+**Format:** `Tool — purpose. Docs: <url>. MCP: <server or none>.`
 
 # Ubiquitous Language
 
-Contains: Domain vocabulary, used consistently in conversation and code.
+**Contains:** Domain vocabulary, used consistently in conversation and code.
 
-Add when: Code or discussion names a domain concept. Skip technical terms.
+**Add when:** Code or discussion names a domain concept. Skip technical terms.
 
-Format: `Term — definition. Avoid: synonyms.`
+**Format:** `Term — definition. Avoid: synonyms.`
 
 # Decisions
 
-Contains: Settled choices, so they aren't reopened. Mark superseded entries instead of deleting them.
+**Contains:** Settled choices, so they aren't reopened.
 
-Add when: The human makes or approves a hard-to-reverse choice that a future agent would otherwise question. Add it right away.
+**Add when:** The human makes or approves a hard-to-reverse choice that a future agent would otherwise question. Add it right away.
 
-Format: `YYYY-MM-DD — decision.`
+**Format:** `YYYY-MM-DD — decision.` When a decision is replaced, keep it and insert `(Superseded)` after the dash.
