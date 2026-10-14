@@ -4,7 +4,7 @@ This file guides agents working in this repo. Each section opens with what it co
 
 # Rules
 
-Contains: Imperative directives on how to work in this repo: behavior, boundaries, workflow; a catch-all for what fits no other section.
+Contains: Imperative directives on how to work in this repo, covering behavior, boundaries, and workflow; a catch-all for what fits no other section.
 
 Add when: The human asks for one.
 
