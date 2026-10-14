@@ -18,7 +18,7 @@ Major tools, with agent-friendly docs (prefer llms.txt or markdown) and MCP serv
 
 # Ubiquitous Language
 
-Shared domain vocabulary. Use these terms consistently in conversation and code. For a concept with no entry, propose terms; add, rename, or retire an entry only after the human agrees. Format: `Term — definition. Avoid: synonyms.`
+Shared domain vocabulary. Use these terms consistently in conversation and code. For a concept with no entry, propose terms. Format: `Term — definition. Avoid: synonyms.`
 
 # Decisions
 
