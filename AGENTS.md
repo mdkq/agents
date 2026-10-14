@@ -12,13 +12,13 @@ This file guides agents working in this repo. Each section opens with what it co
 
 - Write tests, comments, docs, or Markdown only when asked.
 
-# Modules
+# Ubiquitous Language
 
-**Contains:** The deep modules that hold all business logic. Other code imports a module only through its root files, and entry points such as routes stay thin.
+**Contains:** Domain vocabulary, used consistently in conversation and code.
 
-**Add when:** A module is created. Update its entry in the same change whenever what the module does or hides changes.
+**Add when:** Code or discussion names a domain concept. Skip technical terms.
 
-**Format:** `module — what it does and what it hides.`
+**Format:** `Term — definition. Avoid: synonyms.`
 
 # Commands
 
@@ -36,13 +36,13 @@ This file guides agents working in this repo. Each section opens with what it co
 
 **Format:** `Tool — purpose. Docs: <url>. MCP: <server or none>.`
 
-# Ubiquitous Language
+# Modules
 
-**Contains:** Domain vocabulary, used consistently in conversation and code.
+**Contains:** The deep modules that hold all business logic. Other code imports a module only through its root files, and entry points such as routes stay thin.
 
-**Add when:** Code or discussion names a domain concept. Skip technical terms.
+**Add when:** A module is created. Update its entry in the same change whenever what the module does or hides changes.
 
-**Format:** `Term — definition. Avoid: synonyms.`
+**Format:** `module — what it does and what it hides.`
 
 # Decisions
 
