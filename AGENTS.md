@@ -43,7 +43,7 @@ This file guides agents working in this repo. Each section opens with what it co
 
 **Add when:** A module is created. Update its entry in the same change whenever what the module does or hides changes.
 
-**Format:** `module — what it does and what it hides.`
+**Format:** `module — what it does and what it hides.` One short line in domain terms; don't name functions, types, files, or rules the code already shows.
 
 # Decisions
 
