@@ -22,7 +22,7 @@ Format: `` `module` — what it does and what it hides. ``
 
 # Commands
 
-Contains: Commands to set up, build, test, lint, run, and deploy.
+Contains: Exact commands for working in this repo.
 
 Add when: A task recurs. Keep one canonical command per task.
 
