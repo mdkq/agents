@@ -1,12 +1,12 @@
 # Introduction
 
-This file guides agents working in this repo. Each section is a heading, three labeled lines, then a list of entries: `Holds:` states what the section contains, `Test:` the condition an entry must meet to get in, and `Format:` the shape of each entry; follow them exactly. Keep this file current on your own: add entries that pass their section's test and that an agent would otherwise get wrong, and prune what's stale. Never add, rename, or remove sections, or edit this introduction, unless asked.
+This file guides agents working in this repo. Each section is a heading, three labeled lines, then a list of entries: `Contains:` what the section is for, `Add when:` the condition for adding an entry, and `Format:` the shape of each entry; follow them exactly. Keep this file current on your own: add entries that meet their section's `Add when:` and that an agent would otherwise get wrong, and prune what's stale. Never add, rename, or remove sections, or edit this introduction, unless asked.
 
 # Rules
 
-Holds: Imperative directives on how to work in this repo: behavior, boundaries, workflow; a catch-all for what fits no other section.
+Contains: Imperative directives on how to work in this repo: behavior, boundaries, workflow; a catch-all for what fits no other section.
 
-Test: The human asked for it.
+Add when: The human asks for one.
 
 Format: One short imperative per line.
 
@@ -14,40 +14,40 @@ Format: One short imperative per line.
 
 # Modules
 
-Holds: Deep modules, where all business logic lives; other code imports them only through their root files, and entry points such as routes stay thin.
+Contains: Deep modules, where all business logic lives; other code imports them only through their root files, and entry points such as routes stay thin.
 
-Test: It is a module; update its entry in the same change that adds or alters the module.
+Add when: A module is created or changed; update its entry in the same change.
 
 Format: `` `module` — what it does and what it hides. ``
 
 # Commands
 
-Holds: Commands to set up, build, test, lint, run, and deploy.
+Contains: Commands to set up, build, test, lint, run, and deploy.
 
-Test: It is the one canonical command for a recurring task.
+Add when: A task recurs; keep one canonical command per task.
 
 Format: `Purpose: command`
 
 # Stack
 
-Holds: Major tools, with agent-friendly docs (prefer llms.txt or markdown) and MCP servers.
+Contains: Major tools, with agent-friendly docs (prefer llms.txt or markdown) and MCP servers.
 
-Test: It shapes how code is written across the repo.
+Add when: A tool shapes how code is written across the repo.
 
 Format: `Tool — purpose. Docs: <url>. MCP: <server or none>.`
 
 # Ubiquitous Language
 
-Holds: Domain vocabulary, used consistently in conversation and code.
+Contains: Domain vocabulary, used consistently in conversation and code.
 
-Test: Code or discussion names a domain concept; technical terms stay out.
+Add when: Code or discussion names a domain concept; skip technical terms.
 
 Format: `Term — definition. Avoid: synonyms.`
 
 # Decisions
 
-Holds: Settled choices, so they aren't reopened; superseded entries are marked, not deleted.
+Contains: Settled choices, so they aren't reopened; superseded entries are marked, not deleted.
 
-Test: The human made or approved it, it's hard to reverse, and a future agent would otherwise question it; record it as soon as it's made.
+Add when: The human makes or approves a choice that's hard to reverse and that a future agent would otherwise question; add it right away.
 
 Format: `YYYY-MM-DD — decision.`
