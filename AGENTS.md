@@ -1,6 +1,6 @@
 # Introduction
 
-This file guides agents working in this repo. Each section is a heading, three labeled lines, then a list of entries: `Contains:` what the section is for, `Add when:` the condition for adding an entry, and `Format:` the shape of each entry; follow them exactly. Keep this file current on your own: add entries that meet their section's `Add when:` and that an agent would otherwise get wrong, and prune what's stale. Never add, rename, or remove sections, or edit this introduction, unless asked.
+This file guides agents working in this repo. Each section opens with what it contains, when to add an entry, and the format entries take; follow these exactly. Keep the file current on your own, adding only what an agent would otherwise get wrong and pruning what's stale. Never add, rename, or remove sections, or edit this introduction, unless asked.
 
 # Rules
 
