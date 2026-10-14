@@ -8,6 +8,10 @@ Catch-all for imperative directives on how to work in this repo: behavior, bound
 
 - Never write tests, comments, docs, or markdown unless asked.
 
+# Modules
+
+Business logic lives in deep modules, imported only through their root files; entry points such as routes stay thin. List every module here in the same change that adds or alters it. Format: `` `module` — what it does and what it hides. ``
+
 # Commands
 
 Exact commands to set up, build, test, lint, run, and deploy. Format: `Purpose: command`
