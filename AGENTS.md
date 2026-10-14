@@ -50,4 +50,4 @@ This file guides agents working in this repo. Each section opens with what it co
 
 **Add when:** The human makes or approves a hard-to-reverse choice that a future agent would otherwise question. Add it right away.
 
-**Format:** `YYYY-MM-DD — decision.` When a decision is replaced, keep it and insert `(Superseded)` after the dash.
+**Format:** `YYYY-MM-DD — decision.`
