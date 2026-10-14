@@ -11,6 +11,7 @@ This file guides agents working in this repo. Each section opens with what it co
 **Format:** One short imperative per line.
 
 - Write tests, comments, docs, or Markdown only when asked.
+- Keep migrations backward compatible: add first, ship code that handles both shapes, and drop or rename in a later deploy.
 
 # Ubiquitous Language
 
