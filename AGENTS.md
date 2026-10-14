@@ -24,7 +24,7 @@ Format: `` `module` — what it does and what it hides. ``
 
 Contains: Exact commands for working in this repo.
 
-Add when: A task recurs. Keep one canonical command per task.
+Add when: A task recurs often. Keep one canonical command per task.
 
 Format: `Purpose: command`
 
